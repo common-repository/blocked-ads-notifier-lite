@@ -1,0 +1,1 @@
+document.write('<div id="lu_advert" style="display:none">Your Advert</div>'); 

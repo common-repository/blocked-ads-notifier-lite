@@ -1,0 +1,137 @@
+/* 
+BAN - Blocked Ads Notifier Lite admin css
+*/
+
+input:focus,select:focus,textarea:focus,button:focus {
+    outline: 0;
+}
+
+.expand {
+    display: block;
+    background: url(images/sprite.png) no-repeat !important;
+    background-position: 0 0;
+    padding-left: 30px;
+}
+
+.collapse {
+    display: block;
+    background: url(images/sprite.png) no-repeat;
+    background-position: 0 -21px;
+    padding-left: 30px;
+}
+
+.options-heading {
+    font-size: 20px;
+    font-family: Helvetica,Arial,Sans-Serif;
+    text-decoration: none;
+    margin-left: 3px;
+    color: #737373;
+    vertical-align: middle;
+    display: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.option_ex {
+    font-style: italic;
+    padding-left: 15px;
+    color: gray;
+}
+
+.wrap-functions {
+    float: left;
+    background: #ececec;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 25px 10px 0;
+    border: 1px solid #dbdbdb;
+    height: 20px;
+}
+
+.wrap-info {
+    background: url(images/sprite.png) no-repeat;
+    background-position: 0 -69px;
+    width: 50px;
+    height: 20px;
+    margin: -12px;
+    cursor: help;
+}
+
+.options-wrap {
+    background: #ececec;
+    padding: 10px;
+    border: solid 1px #dbdbdb;
+    margin-top: 10px;
+}
+
+.ui-slider {
+    position: relative;
+    text-align: left;
+}
+
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+}
+
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+
+.ui-slider.ui-state-disabled .ui-slider-handle,.ui-slider.ui-state-disabled .ui-slider-range {
+    filter: inherit;
+}
+
+.ui-slider-horizontal {
+    height: .8em;
+    background: #555;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.5em;
+    margin-left: -.6em;
+    left: 32%;
+    background: url(images/sprite.png) no-repeat;
+    background-position: 0 -42px;
+    width: 24px;
+    height: 26px;
+}
+
+.ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+    background: #555;
+}
+
+.ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+    background: #d33;
+}
+
+.ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+
+.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl {
+    border-top-left-radius: 4px;
+}
+
+.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr {
+    border-top-right-radius: 4px;
+}
+
+.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl {
+    border-bottom-left-radius: 4px;
+}
+
+.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br {
+    border-bottom-right-radius: 4px;
+}
